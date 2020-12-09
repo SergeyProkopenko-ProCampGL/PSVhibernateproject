@@ -104,7 +104,7 @@ public class Report {
     public String toString() {
         return "Report{" +
                 "id=" + id +
-                //", userId=" + user.getId() +
+                ", userId=" + user.getId() +
                 ", reportName='" + reportName + '\'' +
                 ", price=" + price +
                 ", reportDate=" + reportDate +

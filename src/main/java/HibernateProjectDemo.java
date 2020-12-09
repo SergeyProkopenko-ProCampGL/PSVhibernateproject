@@ -10,7 +10,7 @@ import java.util.List;
 
 public class HibernateProjectDemo {
 
-    private static Logger logger = Logger.getLogger(ActivityService.class);
+    private static Logger logger = Logger.getLogger(HibernateProjectDemo.class);
 
     public static void main(String[] args) {
 
