@@ -7,6 +7,7 @@ import com.globallogic.psv.hibernate.factory.SessionFactoryBuilder;
 import com.globallogic.psv.hibernate.service.ActivityService;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,19 +56,23 @@ public class BuildingDao {
         Building building = null;
 
         Session session = SessionFactoryBuilder.getCurrentSession();
+        Transaction tx = session.beginTransaction();
         try {
             if (totalPrice > specificValue) {
-                session.beginTransaction();
-                building = session.get(Building.class, buildingId);
-                building.setIsActive(false);
+                String sqlUpdateFalse = "UPDATE building SET is_active = 0 WHERE id = ".
+                        concat("'").concat(buildingId.toString()).concat("'");
+                session.createNativeQuery(sqlUpdateFalse).executeUpdate();
                 logger.info("Set building id=" + buildingId + " status is active = FALSE");
             } else {
-                building.setIsActive(true);
+                String sqlUpdateTrue = "UPDATE building SET is_active = 1 WHERE id = ".
+                        concat("'").concat(buildingId.toString()).concat("'");
+                session.createNativeQuery(sqlUpdateTrue).executeUpdate();
                 logger.info("Set building id=" + buildingId + " status is active = TRUE");
             }
-            session.getTransaction().commit();
+            tx.commit();
         } catch (Exception ex) {
             logger.error(ex.getMessage());
+            tx.rollback();
         } finally {
             session.close();
         }
