@@ -1,4 +1,4 @@
-package com.globallogic.psv.hibernate.factory;
+package com.globallogic.psv.hibernate.util;
 
 import com.globallogic.psv.hibernate.entity.Activity;
 import com.globallogic.psv.hibernate.entity.Building;

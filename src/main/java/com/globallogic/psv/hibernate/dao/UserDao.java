@@ -3,7 +3,7 @@ package com.globallogic.psv.hibernate.dao;
 import com.globallogic.psv.hibernate.entity.Activity;
 import com.globallogic.psv.hibernate.entity.Building;
 import com.globallogic.psv.hibernate.entity.Report;
-import com.globallogic.psv.hibernate.factory.SessionFactoryBuilder;
+import com.globallogic.psv.hibernate.util.SessionFactoryBuilder;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
@@ -14,7 +14,6 @@ import java.util.List;
 public class UserDao {
 
     public List<Activity> findAllActivitiesByUserId(Long userId) {
-        String query = "SELECT * FROM Report WHERE user_id = " + userId;
         List<Activity> activities = new ArrayList<>();
 
         Session session = SessionFactoryBuilder.getCurrentSession();

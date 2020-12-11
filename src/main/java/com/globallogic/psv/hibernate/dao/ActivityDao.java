@@ -3,7 +3,7 @@ package com.globallogic.psv.hibernate.dao;
 import com.globallogic.psv.hibernate.entity.Activity;
 import com.globallogic.psv.hibernate.entity.Building;
 import com.globallogic.psv.hibernate.entity.Report;
-import com.globallogic.psv.hibernate.factory.SessionFactoryBuilder;
+import com.globallogic.psv.hibernate.util.SessionFactoryBuilder;
 import com.globallogic.psv.hibernate.service.ActivityService;
 import com.globallogic.psv.hibernate.service.BuildingService;
 import org.apache.log4j.Logger;

@@ -1,6 +1,5 @@
 import com.globallogic.psv.hibernate.entity.Activity;
 import com.globallogic.psv.hibernate.entity.Report;
-import com.globallogic.psv.hibernate.factory.SessionFactoryBuilder;
 import com.globallogic.psv.hibernate.service.ActivityService;
 import com.globallogic.psv.hibernate.service.BuildingService;
 import com.globallogic.psv.hibernate.service.ReportService;

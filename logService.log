@@ -1,103 +1,235 @@
-2020-12-09 01:41:18 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.20.Final
-2020-12-09 01:41:19 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-12-09 01:41:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:21 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2a334bac] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:23 INFO  ReportService:17 - All reports for user id = 1: [Report{id=1, reportName='Petrenko Report1', price=0.0, reportDate=2020-11-20}, Report{id=2, reportName='Petrenko Report2', price=0.0, reportDate=2020-11-25}]
-2020-12-09 01:41:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:23 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:23 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:23 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:23 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@35dece42] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:23 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:23 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:23 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:23 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:23 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:23 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:23 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2199e845] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:24 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:24 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:24 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20440c6c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:24 INFO  ActivityService:30 - Building list: [Building{id=5, reportId=3, buildingName='Obolon 25', isActive=true}, Building{id=6, reportId=3, buildingName='Obolon 30', isActive=true}, Building{id=7, reportId=4, buildingName='Bortnychi-1', isActive=false}, Building{id=8, reportId=4, buildingName='Bortnychi-2', isActive=false}]
-2020-12-09 01:41:24 INFO  ActivityService:33 - Building ids list for user 2: [5, 6, 7, 8]
-2020-12-09 01:41:24 INFO  ActivityService:18 - Getting activities by user id=2 and specific building id=5: 
-[Activity{id=9, workName='Soundproofing', price=150.0, amount=20.3}, Activity{id=10, workName='Interior fire hydrant installation', price=170.0, amount=3.0}]
-2020-12-09 01:41:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:24 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:24 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:24 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47187f50] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:24 INFO  ActivityService:23 - All activities for building id = 7: [Activity{id=13, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
-2020-12-09 01:41:24 INFO  ActivityService:39 - All activities by building id=7: [Activity{id=13, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
-2020-12-09 01:41:24 INFO  ActivityService:32 - Total price = 5000.0
-2020-12-09 01:41:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:24 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:24 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:24 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c8f4bc7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:24 INFO  ActivityService:23 - All activities for building id = 7: [Activity{id=13, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
-2020-12-09 01:41:24 INFO  ActivityService:39 - All activities by building id=7: [Activity{id=13, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
-2020-12-09 01:41:24 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:24 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:24 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:24 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:24 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:24 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19bfbe28] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:25 INFO  BuildingDao:63 - Set building id=7 status is active = FALSE
-2020-12-09 01:41:25 INFO  ActivityService:34 - Active status was updated
-2020-12-09 01:41:25 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:25 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:25 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:25 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:25 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:25 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f93f4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:25 INFO  ReportService:24 - All activities for specific report id = 8: 
-[Activity{id=29, workName='Dredging work', price=20000.0, amount=1.0}, Activity{id=30, workName='Plant installation', price=250.0, amount=5.0}, Activity{id=31, workName='injection well work', price=10000.0, amount=1.0}, Activity{id=32, workName='Antenna installation', price=2000.0, amount=1.0}]
-2020-12-09 01:41:25 INFO  ActivityService:29 - All activities by report id=8: [Activity{id=29, workName='Dredging work', price=20000.0, amount=1.0}, Activity{id=30, workName='Plant installation', price=250.0, amount=5.0}, Activity{id=31, workName='injection well work', price=10000.0, amount=1.0}, Activity{id=32, workName='Antenna installation', price=2000.0, amount=1.0}]
-2020-12-09 01:41:25 INFO  ActivityService:39 - Total price of activities for report id=8 = 33250.0
-2020-12-09 01:41:25 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:25 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:25 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:25 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:25 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:25 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38022758] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:25 INFO  ActivityService:23 - All activities for building id = 4: [Activity{id=7, workName='Fusuma work', price=230.0, amount=8.5}, Activity{id=8, workName='Furniture work', price=180.0, amount=5.5}]
-2020-12-09 01:41:25 INFO  ActivityService:39 - All activities by building id=4: [Activity{id=7, workName='Fusuma work', price=230.0, amount=8.5}, Activity{id=8, workName='Furniture work', price=180.0, amount=5.5}]
-2020-12-09 01:41:25 INFO  ActivityService:44 - Total price of activities for specific building id=4 = 2945.0
-2020-12-09 01:41:25 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:25 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:25 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:25 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:25 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:25 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e364f1f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:25 WARN  deprecation:1793 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
-2020-12-09 01:41:25 INFO  UserService:16 - All activities for user id = 3: [Activity{id=17, workName='Plasterwork', price=70.0, amount=35.5}, Activity{id=18, workName='Mortar work', price=30.0, amount=40.0}, Activity{id=19, workName='Concrete waterproofing', price=20.0, amount=40.5}, Activity{id=20, workName='Spray work', price=30.0, amount=50.5}, Activity{id=21, workName='Grinding work', price=180.0, amount=25.3}, Activity{id=22, workName='Washing out', price=15.0, amount=60.5}, Activity{id=23, workName='Pipe rehabilitation work', price=230.0, amount=15.5}, Activity{id=24, workName='Cooler installation', price=500.0, amount=2.0}]
-2020-12-09 01:41:25 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2020-12-09 01:41:25 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
-2020-12-09 01:41:25 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
-2020-12-09 01:41:25 INFO  pooling:129 - HHH10001003: Autocommit mode: false
-2020-12-09 01:41:25 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
-2020-12-09 01:41:25 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-12-09 01:41:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22cd8ec2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2020-12-09 01:41:25 WARN  deprecation:1793 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
-2020-12-09 01:41:25 INFO  ActivityService:48 - All activities by user 3: [Activity{id=17, workName='Plasterwork', price=70.0, amount=35.5}, Activity{id=18, workName='Mortar work', price=30.0, amount=40.0}, Activity{id=19, workName='Concrete waterproofing', price=20.0, amount=40.5}, Activity{id=20, workName='Spray work', price=30.0, amount=50.5}, Activity{id=21, workName='Grinding work', price=180.0, amount=25.3}, Activity{id=22, workName='Washing out', price=15.0, amount=60.5}, Activity{id=23, workName='Pipe rehabilitation work', price=230.0, amount=15.5}, Activity{id=24, workName='Cooler installation', price=500.0, amount=2.0}]
-2020-12-09 01:41:25 INFO  ActivityService:50 - Total price of activities for specific user id=3 = 16036.5
+2020-12-11 07:49:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-12-11 07:49:14 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-11 07:49:15 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:15 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:15 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:15 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:15 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:16 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:17 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3bec5821] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:18 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    536800 nanoseconds spent acquiring 1 JDBC connections;
+    435800 nanoseconds spent releasing 1 JDBC connections;
+    14950400 nanoseconds spent preparing 1 JDBC statements;
+    976200 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    13941500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    37400 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:18 INFO  ReportService:17 - All reports for user id = 1: [Report{id=1, userId=1, reportName='Petrenko Report1', price=0.0, reportDate=2020-11-20}, Report{id=2, userId=1, reportName='Petrenko Report2', price=0.0, reportDate=2020-11-25}]
+2020-12-11 07:49:18 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:18 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:18 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:18 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:18 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:18 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:18 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@faea4da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:19 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:19 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:19 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:19 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:19 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:19 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c3158e0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:19 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    531700 nanoseconds spent acquiring 1 JDBC connections;
+    317400 nanoseconds spent releasing 1 JDBC connections;
+    334500 nanoseconds spent preparing 1 JDBC statements;
+    930000 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    381500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 2 collections);
+    6400 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:19 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:19 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:19 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:19 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:19 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:19 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@14efa279] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:19 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    499900 nanoseconds spent acquiring 1 JDBC connections;
+    254500 nanoseconds spent releasing 1 JDBC connections;
+    5452700 nanoseconds spent preparing 7 JDBC statements;
+    5537500 nanoseconds spent executing 7 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1013800 nanoseconds spent executing 1 flushes (flushing a total of 14 entities and 6 collections);
+    6600 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:19 INFO  ActivityService:30 - Building list: [Building{id=5, reportId=3, buildingName='Obolon 25', isActive=true}, Building{id=6, reportId=3, buildingName='Obolon 30', isActive=true}, Building{id=7, reportId=4, buildingName='Bortnychi-1', isActive=true}, Building{id=8, reportId=4, buildingName='Bortnychi-2', isActive=false}]
+2020-12-11 07:49:19 INFO  ActivityService:33 - Building ids list for user 2: [5, 6, 7, 8]
+2020-12-11 07:49:19 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    514000 nanoseconds spent acquiring 1 JDBC connections;
+    248200 nanoseconds spent releasing 1 JDBC connections;
+    207800 nanoseconds spent preparing 1 JDBC statements;
+    677900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    173400 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    4900 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:19 INFO  ActivityService:18 - Getting activities by user id=2 and specific building id=5: 
+[Activity{id=9, buildingId=5, workName='Soundproofing', price=150.0, amount=20.3}, Activity{id=10, buildingId=5, workName='Interior fire hydrant installation', price=170.0, amount=3.0}]
+2020-12-11 07:49:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:19 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:19 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:19 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:19 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:19 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:19 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56fda064] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:20 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    542000 nanoseconds spent acquiring 1 JDBC connections;
+    250900 nanoseconds spent releasing 1 JDBC connections;
+    694500 nanoseconds spent preparing 2 JDBC statements;
+    1690100 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    381000 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:20 INFO  ActivityService:23 - All activities for building id = 7: [Activity{id=13, buildingId=7, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, buildingId=7, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
+2020-12-11 07:49:20 INFO  ActivityService:39 - All activities by building id=7: [Activity{id=13, buildingId=7, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, buildingId=7, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
+2020-12-11 07:49:20 INFO  HibernateProjectDemo:32 - Total price = 5000.0
+2020-12-11 07:49:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:20 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@591f6f83] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:20 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    283700 nanoseconds spent acquiring 1 JDBC connections;
+    176100 nanoseconds spent releasing 1 JDBC connections;
+    432200 nanoseconds spent preparing 2 JDBC statements;
+    1378600 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    365400 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:20 INFO  ActivityService:23 - All activities for building id = 7: [Activity{id=13, buildingId=7, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, buildingId=7, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
+2020-12-11 07:49:20 INFO  ActivityService:39 - All activities by building id=7: [Activity{id=13, buildingId=7, workName='Fire alarm facilities work', price=2000.0, amount=1.0}, Activity{id=14, buildingId=7, workName='Installation of metal evacuation ladders', price=3000.0, amount=1.0}]
+2020-12-11 07:49:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:20 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@781c2497] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:20 INFO  BuildingDao:66 - Set building id=7 status is active = FALSE
+2020-12-11 07:49:20 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    445400 nanoseconds spent acquiring 1 JDBC connections;
+    796300 nanoseconds spent releasing 1 JDBC connections;
+    119700 nanoseconds spent preparing 1 JDBC statements;
+    16163400 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6300 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:20 INFO  HibernateProjectDemo:34 - Active status was updated
+2020-12-11 07:49:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:20 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1cc41b77] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:20 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    309900 nanoseconds spent acquiring 1 JDBC connections;
+    189700 nanoseconds spent releasing 1 JDBC connections;
+    972800 nanoseconds spent preparing 4 JDBC statements;
+    2297700 nanoseconds spent executing 4 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    475600 nanoseconds spent executing 1 flushes (flushing a total of 7 entities and 3 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:20 INFO  ReportService:24 - All activities for specific report id = 8: 
+[Activity{id=29, buildingId=15, workName='Dredging work', price=20000.0, amount=1.0}, Activity{id=30, buildingId=15, workName='Plant installation', price=250.0, amount=5.0}, Activity{id=31, buildingId=16, workName='injection well work', price=10000.0, amount=1.0}, Activity{id=32, buildingId=16, workName='Antenna installation', price=2000.0, amount=1.0}]
+2020-12-11 07:49:20 INFO  ActivityService:29 - All activities by report id=8: [Activity{id=29, buildingId=15, workName='Dredging work', price=20000.0, amount=1.0}, Activity{id=30, buildingId=15, workName='Plant installation', price=250.0, amount=5.0}, Activity{id=31, buildingId=16, workName='injection well work', price=10000.0, amount=1.0}, Activity{id=32, buildingId=16, workName='Antenna installation', price=2000.0, amount=1.0}]
+2020-12-11 07:49:20 INFO  HibernateProjectDemo:39 - Total price of activities for report id=8 = 33250.0
+2020-12-11 07:49:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:20 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:20 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:20 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:20 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@438aaa9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:21 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    231900 nanoseconds spent acquiring 1 JDBC connections;
+    251300 nanoseconds spent releasing 1 JDBC connections;
+    377600 nanoseconds spent preparing 2 JDBC statements;
+    1409800 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    486500 nanoseconds spent executing 1 flushes (flushing a total of 4 entities and 2 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:21 INFO  ActivityService:23 - All activities for building id = 4: [Activity{id=7, buildingId=4, workName='Fusuma work', price=230.0, amount=8.5}, Activity{id=8, buildingId=4, workName='Furniture work', price=180.0, amount=5.5}]
+2020-12-11 07:49:21 INFO  ActivityService:39 - All activities by building id=4: [Activity{id=7, buildingId=4, workName='Fusuma work', price=230.0, amount=8.5}, Activity{id=8, buildingId=4, workName='Furniture work', price=180.0, amount=5.5}]
+2020-12-11 07:49:21 INFO  HibernateProjectDemo:44 - Total price of activities for specific building id=4 = 2945.0
+2020-12-11 07:49:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:21 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:21 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:21 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1de85972] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:21 WARN  deprecation:1793 - HHH90000022: Hibernate's legacy org.hibernate.`ria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020-12-11 07:49:21 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    218000 nanoseconds spent acquiring 1 JDBC connections;
+    223000 nanoseconds spent releasing 1 JDBC connections;
+    1284500 nanoseconds spent preparing 7 JDBC statements;
+    4567100 nanoseconds spent executing 7 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1092500 nanoseconds spent executing 1 flushes (flushing a total of 14 entities and 6 collections);
+    6100 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:21 INFO  UserService:16 - All activities for user id = 3: [Activity{id=17, buildingId=9, workName='Plasterwork', price=70.0, amount=35.5}, Activity{id=18, buildingId=9, workName='Mortar work', price=30.0, amount=40.0}, Activity{id=19, buildingId=10, workName='Concrete waterproofing', price=20.0, amount=40.5}, Activity{id=20, buildingId=10, workName='Spray work', price=30.0, amount=50.5}, Activity{id=21, buildingId=11, workName='Grinding work', price=180.0, amount=25.3}, Activity{id=22, buildingId=11, workName='Washing out', price=15.0, amount=60.5}, Activity{id=23, buildingId=12, workName='Pipe rehabilitation work', price=230.0, amount=15.5}, Activity{id=24, buildingId=12, workName='Cooler installation', price=500.0, amount=2.0}]
+2020-12-11 07:49:21 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-11 07:49:21 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/procamp_psv?useSSL=false&serverTimezone=UTC]
+2020-12-11 07:49:21 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=root}
+2020-12-11 07:49:21 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-12-11 07:49:21 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-12-11 07:49:21 INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-12-11 07:49:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b3c2ae0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-11 07:49:21 WARN  deprecation:1793 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020-12-11 07:49:21 INFO  StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    245000 nanoseconds spent acquiring 1 JDBC connections;
+    546100 nanoseconds spent releasing 1 JDBC connections;
+    1290100 nanoseconds spent preparing 7 JDBC statements;
+    5123100 nanoseconds spent executing 7 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    1099400 nanoseconds spent executing 1 flushes (flushing a total of 14 entities and 6 collections);
+    6000 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2020-12-11 07:49:21 INFO  ActivityService:48 - All activities by user 3: [Activity{id=17, buildingId=9, workName='Plasterwork', price=70.0, amount=35.5}, Activity{id=18, buildingId=9, workName='Mortar work', price=30.0, amount=40.0}, Activity{id=19, buildingId=10, workName='Concrete waterproofing', price=20.0, amount=40.5}, Activity{id=20, buildingId=10, workName='Spray work', price=30.0, amount=50.5}, Activity{id=21, buildingId=11, workName='Grinding work', price=180.0, amount=25.3}, Activity{id=22, buildingId=11, workName='Washing out', price=15.0, amount=60.5}, Activity{id=23, buildingId=12, workName='Pipe rehabilitation work', price=230.0, amount=15.5}, Activity{id=24, buildingId=12, workName='Cooler installation', price=500.0, amount=2.0}]
+2020-12-11 07:49:21 INFO  HibernateProjectDemo:50 - Total price of activities for specific user id=3 = 16036.5
