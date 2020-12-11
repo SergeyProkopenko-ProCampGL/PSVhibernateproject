@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ActivityDao {
 
-    private Logger logger = Logger.getLogger(ActivityService.class);
+    private static final Logger logger = Logger.getLogger(ActivityService.class);
 
     public List<Activity> getActivitiesForUserAndSpecBuilding(Long userId, Long buildingId) {
 

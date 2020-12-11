@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ReportService {
 
-    private Logger logger = Logger.getLogger(ReportService.class);
+    private static final Logger logger = Logger.getLogger(ReportService.class);
     ReportDao reportDao = new ReportDao();
 
     public List<Report> getReportsByParticularUser(Long userId) {

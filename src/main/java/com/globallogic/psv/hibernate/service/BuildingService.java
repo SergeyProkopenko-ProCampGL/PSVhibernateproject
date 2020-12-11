@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BuildingService {
 
-    private Logger logger = Logger.getLogger(ActivityService.class);
+    private static final Logger logger = Logger.getLogger(ActivityService.class);
 
     public List<Activity> findAllActivitiesByBuildingId(Long buildingId) {
         BuildingDao buildingDao = new BuildingDao();

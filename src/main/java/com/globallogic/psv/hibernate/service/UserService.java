@@ -8,7 +8,7 @@ import java.util.List;
 
 public class UserService {
 
-    private Logger logger = Logger.getLogger(UserService.class);
+    private static final Logger logger = Logger.getLogger(UserService.class);
 
     public List<Activity> findAllActivitiesByUserId(Long userId) {
         UserDao userDao = new UserDao();

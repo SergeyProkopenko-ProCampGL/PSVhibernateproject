@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReportDao {
 
-    private Logger logger = Logger.getLogger(ReportDao.class);
+    private static final Logger logger = Logger.getLogger(ReportDao.class);
 
     public List<Report> getReportsByUserId(Long userId) {
         List<Report> userReports = new ArrayList<>();

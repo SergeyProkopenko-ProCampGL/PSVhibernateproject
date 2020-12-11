@@ -14,7 +14,7 @@ import java.util.List;
 
 public class BuildingDao {
 
-    private Logger logger = Logger.getLogger(BuildingDao.class);
+    private static final Logger logger = Logger.getLogger(BuildingDao.class);
 
     public List<Building> getBuildingsByReports(List<Report> userReports) {
         List<Building> buildings = new ArrayList<>();
